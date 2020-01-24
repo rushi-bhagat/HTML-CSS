@@ -1,0 +1,161 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar{
+    padding: 0rem;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.lead{
+    padding-top: 15px;
+}
+.flex-container > div{
+    margin: 10px;
+}
+
+.jumbotron .textline{
+    font-size: 15px;
+}
+
+.staytext{
+    color: floralwhite;
+    text-shadow: gainsboro;
+    padding-bottom: 0;
+}
+
+.qualitytext{
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+
+.checkbox{
+    color: ghostwhite;
+    white-space: nowrap;
+}
+
+.checkbox label{
+    padding-left: 0.4em;
+}
+
+.submit{
+    float: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 3px;
+    border-color: whitesmoke;    
+}
+
+
+
+.form-group{
+    padding: 5px;
+}
+
+.form-control{
+    padding:15px;
+}
+
+.img-thumbnail{
+    border: none;
+}
+
+#i1{
+    margin-left: 0em;
+}
+
+#section{
+    height: 800px;
+    background-image: url(../images/section-im.jpg);
+    background-size: cover;
+}
+
+#form-stay{
+    margin-top: 150px;
+}
+
+#ser:hover{
+    background-color: deepskyblue;
+}
+
+#dropmenu{
+    padding:0;
+}
+
+#jumbo2{
+    height: max-content;
+
+}
+
+#jr1{
+    margin-top: 50px;
+}
+
+#jr2{
+    margin-top: 50px;
+}
+
+#i1{
+    margin: 10px;
+}
+
+#i2{
+    margin: 10px;
+}
+.hovereffect {
+    width:100%;
+    height:100%;
+    float:left;
+    overflow:hidden;
+    position:relative;
+    text-align:center;
+    cursor:default;
+}
+    
+.hovereffect .overlay {
+width:100%;
+height:100%;
+position:absolute;
+overflow:hidden;
+top:0;
+left:0;
+opacity:0;
+/* background-color:rgba(0,0,0,0.5); */
+-webkit-transition:all .4s ease-in-out;
+transition:all .4s ease-in-out
+}
+
+.hovereffect img {
+display:block;
+position:relative;
+-webkit-transition:all .4s linear;
+transition:all .4s linear;
+}
+    
+
+.hovereffect a.info:hover {
+box-shadow:0 0 5px #fff;
+}
+    
+.hovereffect:hover img {
+-ms-transform:scale(1.2);
+-webkit-transform:scale(1.2);
+transform:scale(1.2);
+}
+    
+.hovereffect:hover .overlay {
+opacity:1;
+filter:alpha(opacity=100);
+}
+    
+.padding-over{
+    margin-top:7rem;
+}
